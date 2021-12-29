@@ -1,0 +1,10 @@
+{
+    "root": true,
+    "plugins": [
+        "stylelint-config-standard",
+        "stylelint-config-recommended-scss",
+        "stylelint-config-prettier"
+    ],
+    "rules": {},
+    "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts"]
+}

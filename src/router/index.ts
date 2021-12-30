@@ -1,6 +1,7 @@
-import {createRouter, createWebHistory, RouteRecordRaw} from 'vue-router'
-const routes: RouteRecordRaw[] = []
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import routes from './router.config'
+
 export default createRouter({
-    history: createWebHistory(),
-    routes
+  history: createWebHistory(),
+  routes,
 })

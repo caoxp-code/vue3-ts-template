@@ -2,11 +2,13 @@
 
 创建一个常使用的 vue3 模板，其中包括 typescript，tailwind. 以及 eslint，stylelint，husky 等一些开发流程梳理的组件。优化开发体验，减少初始化项目难度。
 
-## engine
+## 平台依赖
 
 node >= 16
 
-## use
+## vscode 所需插件
+
+## 用法
 
 ```
 npx degit caoxp-code/vue3-ts-template my-project
@@ -25,3 +27,9 @@ git commit -m "fix(login): 修改登录bug"
 ```
 
 其中 type-enum 类型为 type|说明 ---|---: feat|新增功能 fix|修改 bug perf|优化相关，比如提升性能、体验 ci|持续集成 docs|文档修改 style|代码格式修改，不是 css 修改 test|测试用例修改 refactor|回滚到上一个版本 build|编译相关的修改，例如发布版本、项目构建、依赖改动 chore|其他修改，比如修改构建流程
+
+## 问题
+
+#### mac 中，sourcetree 提交时，husky 报错 yarn: command not found
+
+是由于在 sourcetree 中找不到 yarn 命令，可以创建~/.huskyrc 文件，写入 which yarn 的地址 ··· export PATH="which yarn:$PATH" ···

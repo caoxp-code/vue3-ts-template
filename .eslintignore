@@ -11,3 +11,10 @@ dist
 .husky
 .local
 /bin
+
+# src下文件
+src/assets
+src/**/*.css
+src/env.d.ts
+.**.{js,json}
+.**

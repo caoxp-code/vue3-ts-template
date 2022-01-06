@@ -1,10 +1,11 @@
 /// <reference types="vite/client" />
 
 // 声明import.meta.env
-interface ImportMetaEnv{
+interface ImportMetaEnv {
   readonly VITE_APP_TITLE: string
+  readonly VITE_API_ROOT: string
 }
-interface ImportMeta{
+interface ImportMeta {
   readonly env: ImportMetaEnv
 }
 
